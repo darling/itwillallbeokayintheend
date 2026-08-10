@@ -1,5 +1,0 @@
-# Files here stay in the repo but are NOT uploaded on `wrangler deploy`.
-# Delete a line to publish that directory.
-
-projects/
-media/
