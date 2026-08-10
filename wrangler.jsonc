@@ -10,6 +10,17 @@
 		// The path to the directory containing the `index.html` file to be served at `/`
 		"directory": "./public"
 	},
+	// The Worker is the origin. Wrangler creates and manages the DNS records.
+	"routes": [
+		{
+			"pattern": "itwillallbeokayintheend.com",
+			"custom_domain": true
+		},
+		{
+			"pattern": "www.itwillallbeokayintheend.com",
+			"custom_domain": true
+		}
+	],
 	"observability": {
 		"enabled": true
 	},
