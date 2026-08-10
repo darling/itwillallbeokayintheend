@@ -1,0 +1,29 @@
+/* Base. Everything not listed here is the browser default, on purpose. */
+
+:root {
+	/* opt in to the browser's dark palette when the reader prefers it */
+	color-scheme: light dark;
+}
+
+body {
+	max-width: 42rem;
+	margin: 3rem 0;
+	padding: 0 1.25rem;
+	line-height: 1.5;
+}
+
+/* The homepage <h1> lives inside a sentence. Let it read as prose.
+   Scoped to <header>, so project-page headings keep their default weight. */
+header h1 {
+	display: inline;
+	font: inherit;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+figure {
+	margin-inline: 0;
+}
